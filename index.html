@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/icon.ico" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>🤍 اقتباس اليوم</title>
+  </head>
+  <body>
+    <div class="container text-center mt-5 fs-3 w-75 p-4 home">
+      <div>
+        <h1 class="fw-bold mb-3">🤍 اقتباس اليوم</h1>
+        <p class="mb-4">! اضغط على الزر لتلقي اقتباس جديد</p>
+        <button
+          class="btn btn-outline-primary mb-3 px-5 py-3"
+          onclick="randomQuote()"
+        >
+          اقتباس جديد
+        </button>
+      </div>
+      <div id="quote-container" class="mt-4"></div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

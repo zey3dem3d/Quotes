@@ -1,0 +1,14 @@
+body {
+  background-color: #e7ebecc1;
+}
+
+.home {
+  background-color: #ffffff;
+  border-radius: 65px;
+}
+
+@media all and (max-width: 768px) {
+  .home {
+    width: 90% !important;
+  }
+}
